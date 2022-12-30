@@ -12,6 +12,7 @@
 // }
 
 //2.
+
 let display = prompt(
   'Enter the display value',
   'block, flex, grid, inline or none'
