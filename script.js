@@ -39,11 +39,24 @@
 // }
 
 //3.
-//let positiveNumber = Number(prompt('Please enter positive number'))
+let positiveNumber = Number(prompt('Please enter positive number'));
+
+while (true) {
+  if(!isNaN(positiveNumber) && positiveNumber !== 0){
+    alert(`${positiveNumber} by 12 is equal ${positiveNumber * 12}`);
+    break;
+  };
+  
+  positiveNumber = Number(
+    prompt('Your number is incorrect, please enter correct number')
+  );
+}
+
+//
 
 //4.
-for(let i = 2; i <= 50; i++){
-  if(i%2 ===0){
-    console.log(i);
-  }
-}
+// for(let i = 2; i <= 50; i++){
+//   if(i%2 ===0){
+//     console.log(i);
+//   }
+// }
